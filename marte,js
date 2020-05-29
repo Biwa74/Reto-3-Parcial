@@ -1,0 +1,12 @@
+class Marte extends Planeta{
+  constructor(){
+    super();
+    this.x=800;
+    this.y=800;
+    this.trans=250;
+    this.angulo=240;
+    this.s=1/6;
+    this.p=loadImage("marte.png");
+    this.cont=0;
+  }
+}
