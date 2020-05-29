@@ -1,5 +1,5 @@
 class Venus extends Planeta{
-  constructor(slider){
+  constructor(){
     super();
     this.x=2400;
     this.y=2400;
